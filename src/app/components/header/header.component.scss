@@ -1,0 +1,19 @@
+.small-header {
+    padding: 5px 0;
+    font-size: 16px;
+    background-color: #111; /* Negro elegante */
+  }
+  
+  .small-header a {
+    text-decoration: none; /* Quita el subrayado */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .small-header a:hover {
+    color: #007bff; /* Azul Bootstrap para hover */
+  }
+
+  .custom-border {
+    border: 2px solid #a36008; /* Cambiá este color por el que vos quieras */
+  }

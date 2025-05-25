@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E3F2FD;
+    /* Azul muy suave */
+}
+
+.main-container {
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background: transparent;
+    /* Fondo blanco semitransparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #E3F2FD;
+    /* Azul suave */
+}
+
+.nav-link {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* Espaciado equidistante */
+    padding: 0;
+}
+
+.nav-item {
+    flex: 1;
+    /* Hace que todos los elementos ocupen el mismo espacio */
+    text-align: center;
+    /* Centra el texto en cada item */
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-link:hover {
+    background-color: #E3F2FD;
+    /* Cambiar el fondo al pasar el ratón */
+    color: black;
+    /* Cambiar el color del texto */
+    border-radius: 5px;
+    /* Agregar bordes redondeados (opcional) */
+}
