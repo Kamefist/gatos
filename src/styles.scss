@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'raleway';
     background-color: #E3F2FD;
     /* Azul muy suave */
 }
@@ -27,6 +27,9 @@ header {
 .nav-link {
     font-size: 18px;
     padding: 10px;
+    display: block;
+    padding: 1rem; /* más alto si quieres más área clicable */
+    transition: background-color 0.3s;
 }
 
 .navbar-brand {
@@ -50,10 +53,9 @@ header {
 
 .nav-link {
     display: block;
-    padding: 10px 0;
-    text-align: center;
-    width: 100%;
-}
+    padding: 1.2rem; /* más alto si quieres más área clicable */
+    transition: background-color 0.3s;
+  }
 
 .nav-link:hover {
     background-color: #E3F2FD;
