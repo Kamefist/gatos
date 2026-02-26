@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-galeria',
-  templateUrl: './galeria.component.html',
-  styleUrls: ['./galeria.component.scss']
+  templateUrl: './queHacemos.component.html',
+  styleUrls: ['./queHacemos.component.scss']
 })
-export class GaleriaComponent implements OnInit {
+export class QueHacemosComponent implements OnInit {
 
   constructor() { }
 
